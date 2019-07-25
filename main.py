@@ -2,6 +2,7 @@ import random
 from phrases import Phrases
 
 p_p = Phrases.phrases
+ref = Phrases.phrases[1]
 p_a = Phrases.alpha
 phrase_picked = 0
 p_unique_letters = []
@@ -31,8 +32,10 @@ def create_new_p():
             converted_phrase = converted_phrase + ','
         elif l == ':':
             converted_phrase = converted_phrase + ':'
+        elif l == '-':
+            converted_phrase = converted_phrase + '-'
 
-    print("\n" + converted_phrase.upper())
+    print("\n" + converted_phrase.upper() + "\n\n" + ref)
 
 def run_game():
     for l in p_p[phrase_picked]:
