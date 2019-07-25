@@ -87,5 +87,6 @@ def run_puzzle():
 
     create_new_p()
 
-    
+
+# STARTS THE FIRST FUNCTION CALL OF THE PROGRAM
 run_puzzle()
