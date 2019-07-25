@@ -4,7 +4,6 @@ import random
 from phrases import Phrases
 
 # -------- GLOBAL VARIABLES --------
-
 p_p = Phrases.phrases
 ref = Phrases.phrases[1]
 p_a = Phrases.alpha
